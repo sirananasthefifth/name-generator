@@ -57,15 +57,15 @@
             //variabler 
             bool woman = false;
             bool test = true;
-            int firstNameLetters;
-            int lastNameLetters;
-            int numberOfNames;
+            int firstNameLetters = 0;
+            int lastNameLetters = 0;
+            int numberOfNames = 0;
 
             while (true)
             {
 
                 //Fråga användaren om antalet bokstäver, antalet namn och vilket kön
-
+                test = true;
                 while (test)
                 {
                     try
@@ -86,7 +86,13 @@
                     {
                         Console.WriteLine("Vänlingen skriv in ett positiv tal");
                     }
+                }
 
+                test = true;
+                while (test)
+                {
+
+                
                     try
                     {
                         Console.WriteLine("Hur många bokstäver ska efternamnet ha?");
@@ -105,7 +111,13 @@
                     {
                         Console.WriteLine("Vänlingen skriv in ett positiv tal.");
                     }
+                }
 
+                test = true;
+                while(test)
+                {
+
+                
                     try
                     {
                         Console.WriteLine("Hur många namn vill du generera?");
@@ -125,9 +137,12 @@
                         Console.WriteLine("Vänlingen skriv in ett positiv tal.");
                     }
                 }
-            }
+            
+            
 
             //Kolla ifall kvinnonamn eller manliga ska genereras
+            test = true;
+
             while (test)
             {
                 try
@@ -160,7 +175,7 @@
 
             //kallar på generator metoden//
             Generate(woman, vowels, consonants, firstNameLetters, numberOfNames, lastNameLetters, commonConsonants, commonVowels);
-
+            }
         }
 
 
