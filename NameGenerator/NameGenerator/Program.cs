@@ -6,53 +6,22 @@
         {
             //Arrays med bokstävstyper
             char[] vowels = {
-        'A',
-        'E',
-        'I',
-        'O',
-        'U',
-        'Y'
-      };
+                'A', 'E', 'I', 
+                'O', 'U', 'Y'
+            };
             char[] consonants = {
-        'B',
-        'C',
-        'D',
-        'F',
-        'G',
-        'H',
-        'J',
-        'K',
-        'L',
-        'M',
-        'N',
-        'P',
-        'Q',
-        'R',
-        'S',
-        'T',
-        'V',
-        'W',
-        'X'
-      };
+            'B', 'C', 'D', 'F', 'G', 
+            'H', 'J', 'K', 'L', 'M',
+            'N', 'P', 'Q', 'R', 'S',
+            'T', 'V', 'W', 'X'
+            };
             char[] commonConsonants = {
-        'B',
-        'C',
-        'D',
-        'F',
-        'L',
-        'M',
-        'N',
-        'R',
-        'S',
-        'T'
-      };
+            'B', 'C', 'D', 'F', 'L', 
+            'M', 'N', 'R', 'S', 'T'
+            };
             char[] commonVowels = {
-        'A',
-        'E',
-        'I',
-        'O',
-        'U',
-      };
+            'A', 'E', 'I', 'O', 'U',
+            };
 
             //variabler 
             bool woman = false;
@@ -174,13 +143,13 @@
             }
 
             //kallar på generator metoden//
-            Generate(woman, vowels, consonants, firstNameLetters, numberOfNames, lastNameLetters, commonConsonants, commonVowels);
+            GenerateFirstAndLastName(woman, vowels, consonants, firstNameLetters, numberOfNames, lastNameLetters, commonConsonants, commonVowels);
             }
         }
 
 
 
-        static void Generate(bool woman, char[] vowels, char[] consonants, int firstNameLetters, int numberOfNames, int lastNameLetters, char[] commonConsonants, char[] commonVowels)
+        static void GenerateFirstAndLastName(bool woman, char[] vowels, char[] consonants, int firstNameLetters, int numberOfNames, int lastNameLetters, char[] commonConsonants, char[] commonVowels)
         {
             //Generera namn
             //random variabler
