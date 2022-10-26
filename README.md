@@ -5,7 +5,11 @@ Detta är Emil Embretsén och Ramin Nazaris C# projekt för kursen programmering
 Tanken är att programmet ska kunna generera helt nya namn baserat på användarens input och på så sätt kunna hjälpa företag eller författare att hitta namninspiration till produkter, bokkaraktärer, städer mm. Övertaget vårt program har är att den inte genererar från redan existerande namn och kan därför enkelt skapa namn som inte finns.
 
 ## Hur man använder programmet
-Ladda ned allting från Github. Öppna därefter NameGenerator.sln i Visual Studio. Kör programmet. Programmet kommer be dig att skriva in antalet bokstäver i förnamnet, antalet bokstäver i efternamnet, hur många namn och ge dig alternativet att generera kvinnliga eller manliga namn.
+Ladda ned allting från Github. Öppna därefter NameGenerator.sln i Visual Studio. Kör programmet. Programmet kommer att fråga dig om du vill generera företagsnamn eller förenamn och efternamn. 
+
+
+Om du väljer att generera för och efternman kommer programmet be dig att skriva in antalet bokstäver i förnamnet, antalet bokstäver i efternamnet, hur många namn och ge dig alternativet att generera kvinnliga eller manliga namn.
+Om du väljer att generera företagsnamn så kommer programmet be dig att skriva in antalet bokstäver till företagsnamnet och hur många namn som den ska generera. 
 
 ## Exempel
 
