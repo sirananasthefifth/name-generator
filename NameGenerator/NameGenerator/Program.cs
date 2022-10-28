@@ -25,20 +25,28 @@ namespace NameGenerator
             'A', 'E', 'I', 'O', 'U',
             };
             int answer = 0;
+            bool loop = true;
 
             while (true)
             {
+                answer = 0;
                 Console.WriteLine("(1) Företagsnamn");
                 Console.WriteLine("(2) För- och efternamn");
+                loop = true;
+                while (loop)
+                {
+                    try
+                    {
+                        answer = Convert.ToInt32(Console.ReadLine());
+                        loop = false;
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Felaktig input");
+                        loop = true;
+                    }
+                }
                 
-                try
-                {
-                    answer = Convert.ToInt32(Console.ReadLine());
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Felaktig input");
-                }
 
 
                 if (answer == 1)
