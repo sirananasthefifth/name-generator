@@ -72,7 +72,7 @@ namespace NameGenerator
                 {
                     try
                     {
-                        Console.WriteLine("Hur många bokstäver ska förnamnet ha?");
+                        Console.WriteLine("Hur många bokstäver ska namnet ha?");
                         nameLetters = Convert.ToInt32(Console.ReadLine());
                         if (nameLetters > 0)
                         {
