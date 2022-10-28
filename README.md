@@ -15,7 +15,7 @@ Om du väljer att generera företagsnamn så kommer programmet be dig att skriva
 
 Så här ser det ut när man använder programmet:
 
-![image](https://user-images.githubusercontent.com/90382456/195839988-30316a49-5a4f-468f-a44a-23cf7e40ccd6.png)
+![image](https://user-images.githubusercontent.com/90382456/198581447-0d547d1a-9200-4f1f-929e-db1d28229029.png)
 
 Några namn som genererats med vår namngenerator:
 - LENUB UEFYS
